@@ -1,0 +1,15 @@
+/* remove the dots in gender so by clicking on gender n prefered job we will inspect there we will see the id so we apply css there */
+#id_gender, #id_job_city{
+    list-style-type: none;
+    /* now i want to arrange them in horizontal */
+    display: inline-flex;
+}
+
+/* id_gender ke andhar li */
+#id_gender > li {
+    padding-left: 10px;
+}
+
+#id_job_city > li{
+    padding-left: 10px;
+}
